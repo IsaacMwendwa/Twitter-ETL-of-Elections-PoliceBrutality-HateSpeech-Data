@@ -6,15 +6,15 @@ from urllib3.exceptions import ProtocolError
 
 
 # consumer (API) key authentication
-consumer_key = 'uxOajqpuFt0cagIOBl7VlnCVw'
-consumer_secret = 'SSGDMh52n5Up1gIbOUCQgtblOrxtLLhI8WAnmU7O8GEKtvarY0'
+consumer_key = 'YOUR CONSUMER KEY HERE'
+consumer_secret = 'YOUR CONSUMER SECRET HERE'
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 
 
 # access key authentication
-access_token = '1193870818201264129-lTzNlglRbes6F4TZuGwZfxjx8Kd1LP'
-access_token_secret = 'HN3s9ldvmio7pJ1c26UAxb7rjqqMI3cX6V1SsRVKhjP5y'
+access_token = 'YOUR ACCESS TOKEN HERE'
+access_token_secret = 'YOUR ACCESS TOKEN SECRET HERE'
 
 auth.set_access_token(access_token, access_token_secret)
 
