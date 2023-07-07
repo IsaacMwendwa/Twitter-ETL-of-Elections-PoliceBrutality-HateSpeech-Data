@@ -1,7 +1,6 @@
 # Twitter Scraping (ETL) of 2022 Elections, Police Brutality, and Hate Speech Data in Kenya
 
-
-
+![Twitter ETL Process Workflow](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/blob/main/Images/scraping_work_flow.jpg "Twitter ETL Process Workflow")
 
 
 ## Table of Contents
