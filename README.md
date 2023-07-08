@@ -13,11 +13,13 @@
 * [Bug / Feature Request](#Bug--Feature-Request)
 * [Authors](#Authors)
 
+
 ## Introduction
 * This project is aimed at providing actionable insights to support United Nations' (UN) Sustainable Development Goal (SDG) Number 16.
 * The SDGs are goals that are universally set by the UN Member States, to end poverty, protect the planet, and ensure peace and prosperity to all people.
 * According to the UN, SDG Number 16 is directed to "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels."
 * This project is directed at supporting the achievement of SDG 16, by providing data to generate actionable insights to stakeholders regarding the 2022 Presidential Elections, Police Brutality, and Propagation of Hate Speech, in one of Kenya's most widely used social media platform -- Twitter.
+
 
 ## Build Tools
 * Python 3
@@ -26,6 +28,7 @@
 * JSON
 * SQLAlchemy
 * Pandas
+
 
 ## Pre-requisites
 You need to have the following to run 
@@ -74,3 +77,54 @@ To load the data to the PostgreSQL data warehouse, we create a Data Load Pipelin
 \
 \
 ![Tables Created in Database](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/blob/main/Images/tables_in_database.jpg "Tables Created in Database")
+
+
+## Database Normalization
+* Database normalization is a database design principle for organizing data in an organized and consistent manner
+* It is directed at avoiding redundancy and maintaining integrity of the database; by avoiding complexities and eliminating duplicates
+* In normalization, data is divided into several tables linked together with relationships; achieved using primary, foreign and composite keys
+* We note that the tables created using SQLAlchemy do not have primary/foreign keys specified, nor do they have any explicit relationships defined -- implying a lot of redundancy in the tables
+* To correct this, we do the following to normalize our database:
+   *  Add constraints to the tables by creating primary and foreign keys in the tables
+   *  Delete duplicate records in the tables
+   *  Delete unnecessary columns from the tables
+* The normalized database will now look like as below:
+
+![Normalized Database Schema](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/blob/main/Images/Full-Schema-of-Normalized-Database.jpg "Normalized Database Schema")
+\
+* This can be summarized to the below forms:
+
+   * Normalized Relational Database Schema Showing Only Primary Keys
+   * ![Database Schema Showing Only Primary Keys](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/blob/main/Images/Relational-Database-Schema-Showing-Only-Primary-Keys.jpg "Database Schema Showing Only Primary Keys")
+
+   * Normalized Relational Database Schema Showing Only Relationships
+   * ![Database Schema Showing Only Relationships](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/blob/main/Images/Relational-Database-Schema-Showing-Only-Relationships.jpg "Database Schema Showing Only Relationships")
+
+
+## Contributions
+Contributions are welcome using pull requests. To contribute, follow these steps:
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`
+3. Make your changes to relevant file(s)
+4. Check status of your commits: `git status`
+6. Add and commit file(s) to the repo using:
+    `git add <file(s)>`
+    `git commit -m "<message>"`
+8. Push repo to Github: `git push origin <branch_name`
+9. Create the pull request. See the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## Bug / Feature Request
+If you find a bug (the website couldn't handle the query and/or gave undesired results), kindly open an issue [here](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/issues/new) by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/new). Please include sample queries and their corresponding results.
+
+
+## Authors
+
+* **[Isaac Mwendwa](https://github.com/IsaacMwendwa)**
+    
+[![github follow](https://img.shields.io/github/followers/IsaacMwendwa?label=Follow_on_GitHub)](https://github.com/IsaacMwendwa)
+
+
+See also the list of [Contributors](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/contributors) who participated in this project.
+
