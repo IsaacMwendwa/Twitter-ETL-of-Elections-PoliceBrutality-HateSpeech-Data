@@ -91,7 +91,7 @@ To load the data to the PostgreSQL data warehouse, we create a Data Load Pipelin
 * The normalized database will now look like as below:
 
 ![Normalized Database Schema](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/blob/main/Images/Full-Schema-of-Normalized-Database.jpg "Normalized Database Schema")
-\
+
 * This can be summarized to the below forms:
 
    * Normalized Relational Database Schema Showing Only Primary Keys
@@ -116,7 +116,7 @@ Contributions are welcome using pull requests. To contribute, follow these steps
 ## Bug / Feature Request
 If you find a bug (the website couldn't handle the query and/or gave undesired results), kindly open an issue [here](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/issues/new) by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/new). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/issues/new). Please include sample queries and their corresponding results.
 
 
 ## Authors
