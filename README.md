@@ -31,7 +31,8 @@
 
 
 ## Pre-requisites
-You need to have the following to run 
+You need to have the following to run the application:
+* Linux OS (installed by dual booting with Windows, or on Windows using [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install))
 * PostgreSQL RDBMS installed
 * Twitter API Keys -- access tokens, consumer keys
 * Python 3 environment with Tweepy, Pandas, Numpy, SQLALchemy, Json, and Glob libraries installed
@@ -77,6 +78,9 @@ To load the data to the PostgreSQL data warehouse, we create a Data Load Pipelin
 \
 \
 ![Tables Created in Database](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/blob/main/Images/tables_in_database.jpg "Tables Created in Database")
+
+6. We then automate data loading to the database by batch processing using Crontab
+
 
 
 ## Database Normalization
