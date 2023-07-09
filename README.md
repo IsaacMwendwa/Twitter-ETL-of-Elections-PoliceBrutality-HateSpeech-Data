@@ -79,8 +79,16 @@ To load the data to the PostgreSQL data warehouse, we create a Data Load Pipelin
 \
 ![Tables Created in Database](https://github.com/IsaacMwendwa/Twitter-ETL-of-Elections-PoliceBrutality-HateSpeech-Data/blob/main/Images/tables_in_database.jpg "Tables Created in Database")
 
-6. We then automate data loading to the database by batch processing using Crontab
+6. We then automate data loading to the database by batch processing using [Linux's Crontab](https://www.geeksforgeeks.org/crontab-in-linux-with-examples/)
+   * We need to process files for previous day, by adding a Crontab
+   * The full command of the Crontab for execution on a daily cadence at 4:30 A.M UTC is as below:
 
+      ``30 4 * * * /home/imwendwa/.pyenv/versions/twitterScraping/bin/python          
+      /home/imwendwa/analytics/policeAndElectionsTwitterScraping/police_and_elections_etl_prod.py   >> 
+      /home/imwendwa/analytics/policeAndElectionsTwitterScraping/etl_logs/`date +\%Y-\%m-\%d_\%H:\%M:\%S`-police-and-elections-etl-logs.log 2>&1``
+   * The first line of the command references running the script using the Python interpreter (.../bin/python) at 4:30 AM UTC
+   * The second line is the path of the ETL script, and we pipe the output using the ">>" symbol
+   * The third line of the Crontab is the path of the ETL logs, we get after running the ETL script. The filename is derived from a timestamp
 
 
 ## Database Normalization
