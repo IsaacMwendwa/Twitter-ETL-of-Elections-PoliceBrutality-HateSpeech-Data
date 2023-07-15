@@ -33,6 +33,7 @@
 ## Pre-requisites
 You need to have the following to run the application:
 * Linux OS (installed by dual booting with Windows, or on Windows using [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install))
+* FTP Clients e.g FileZilla or WinSCP --> for file transfers between Windows and Linux environments (or remote Linux Server)
 * PostgreSQL RDBMS installed
 * Twitter API Keys -- access tokens, consumer keys
 * Python 3 environment with Tweepy, Pandas, Numpy, SQLALchemy, Json, and Glob libraries installed
