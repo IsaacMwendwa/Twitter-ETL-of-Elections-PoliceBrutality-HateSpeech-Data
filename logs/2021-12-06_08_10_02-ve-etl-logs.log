@@ -1,0 +1,126 @@
+PROCESSING FILES UP TO DATE: 2021-12-04
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211201-191439.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211117-040636.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211113-184546.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211117-134124.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211130-172251.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211128-184251.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211122-180313.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211116-050003.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211125-132408.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211125-132408.json :JSONDecodeError: File Probably Having an Incomplete Write
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211125-132408.json :JSONDecodeError Level 2
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211111-184000.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211122-213450.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211123-204325.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211202-183929.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211204-174252.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211129-005232.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-194710.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-134917.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-134917.json :JSONDecodeError: File Probably Having an Incomplete Write
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-134917.json :JSONDecodeError Level 2
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211127-202818.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211127-202818.json :JSONDecodeError: File Probably Having an Incomplete Write
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211127-202818.json :JSONDecodeError Level 2
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211201-115948.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211201-040329.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211118-081207.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211127-112442.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211113-003437.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211204-111730.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211115-171214.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211119-154032.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211125-200849.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211111-230325.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211123-032810.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211123-032810.json :JSONDecodeError: File Probably Having an Incomplete Write
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211123-032810.json :JSONDecodeError Level 2
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211204-143320.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211127-050828.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211125-054444.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211202-114414.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211202-004753.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-173839.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211114-092517.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211115-111208.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211203-052523.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211203-174957.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-085039.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211111-111111.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211202-223913.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211122-072855.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-033800.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211113-160948.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-085039.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211118-131454.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211117-090845.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-085039.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211116-100806.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-085039.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211112-172946.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211118-173205.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211112-053246.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211122-113334.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211123-143655.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211201-160913.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-235158.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211115-053222.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-085039.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211112-142414.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-085039.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211130-204836.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-085039.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211114-135632.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211129-200016.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211119-182734.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211114-173032.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211130-084737.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211129-163045.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211203-213009.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211203-142915.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211118-210553.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-085039.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211126-015029.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211202-074005.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211122-050315.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211129-064720.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211112-102556.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-085039.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211126-130522.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211129-130122.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211111-152744.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211122-145759.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211123-180552.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211119-104701.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211202-155306.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211118-024153.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211127-162810.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211126-205423.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211130-031500.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-085039.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211130-132804.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211113-090057.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211115-212332.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211113-131522.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211117-195251.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211119-212139.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211112-200145.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211128-141427.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211204-072133.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211119-044522.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211113-225609.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211113-225609.json :JSONDecodeError: File Probably Having an Incomplete Write
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211113-225609.json :JSONDecodeError Level 2
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211111-144120.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211114-212125.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211201-071847.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211114-045359.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211203-101828.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211126-171250.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211126-073627.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/streamed-tweets-20211124-085039.json
+Number of Files to be processed: 101
+Number of Files with SQLAlchemy Error (Additional Columns): 10
+Number of Files with JSON Error (Incomplete Write): 5
+Script Finished Executing in : 27.333333333333332 Minutes

@@ -1,0 +1,10 @@
+PROCESSING FILES FOR DATE: 2021-12-13
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211212-170730.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211213-184828.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211213-100553.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211213-023220.json
+/home/imwendwa/analytics/terrorismTwitterScraping/streaming_json_files/ve-tweets-20211213-144954.json
+Number of Files to be processed: 5
+Number of Files with SQLAlchemy Error (Additional Columns): 0
+Number of Files with JSON Error (Incomplete Write): 0
+Script Finished Executing in : 1.1833333333333333 Minutes

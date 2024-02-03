@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/response.py", line 438, in _error_catcher
+    yield
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/response.py", line 519, in read
+    data = self._fp.read(amt) if not fp_closed else b""
+  File "/home/imwendwa/.pyenv/versions/3.6.0/lib/python3.6/http/client.py", line 449, in read
+    n = self.readinto(b)
+  File "/home/imwendwa/.pyenv/versions/3.6.0/lib/python3.6/http/client.py", line 483, in readinto
+    return self._readinto_chunked(b)
+  File "/home/imwendwa/.pyenv/versions/3.6.0/lib/python3.6/http/client.py", line 578, in _readinto_chunked
+    chunk_left = self._get_chunk_left()
+  File "/home/imwendwa/.pyenv/versions/3.6.0/lib/python3.6/http/client.py", line 546, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+  File "/home/imwendwa/.pyenv/versions/3.6.0/lib/python3.6/http/client.py", line 506, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/home/imwendwa/.pyenv/versions/3.6.0/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/home/imwendwa/.pyenv/versions/3.6.0/lib/python3.6/ssl.py", line 1002, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/imwendwa/.pyenv/versions/3.6.0/lib/python3.6/ssl.py", line 865, in read
+    return self._sslobj.read(len, buffer)
+  File "/home/imwendwa/.pyenv/versions/3.6.0/lib/python3.6/ssl.py", line 625, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming.py", line 78, in <module>
+    stream.filter(track=keywords_to_hear)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/tweepy/streaming.py", line 453, in filter
+    self._start(is_async)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/tweepy/streaming.py", line 368, in _start
+    self._run()
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/tweepy/streaming.py", line 300, in _run
+    six.reraise(*exc_info)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/six.py", line 719, in reraise
+    raise value
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/tweepy/streaming.py", line 269, in _run
+    self._read_loop(resp)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/tweepy/streaming.py", line 319, in _read_loop
+    line = buf.read_line()
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/tweepy/streaming.py", line 181, in read_line
+    self._buffer += self._stream.read(self._chunk_size)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/response.py", line 541, in read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+  File "/home/imwendwa/.pyenv/versions/3.6.0/lib/python3.6/contextlib.py", line 100, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/response.py", line 443, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.")
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='stream.twitter.com', port=443): Read timed out.
