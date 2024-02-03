@@ -1,0 +1,47 @@
+imwendwa@saservertwo:~$ crontab -l
+# Edit this file to introduce tasks to be run by cron.
+#
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+#
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').
+#
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+#
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+#
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+#
+# For more information see the manual pages of crontab(5) and cron(8)
+#
+# m h  dom mon dow   command
+
+
+###############################################################################################
+##### V.E Twitter Data ETL Scripts: Uploaded by Isaac Mwendwa on 06/12/2021 ##########
+
+# Bulk Processing of all Files From 11th Nov 2021 to 4th Dec 2021: One Time Execution
+#10 8 6 DEC MON /home/imwendwa/.pyenv/versions/twitterScraping/bin/python /home/imwendwa/analytics/test_db/ve_etl_prod.py >> /home/imwendwa/analytics/test_db/`date +\%Y-\%m-\%d_\%H:\%M:\%S`-ve-etl-logs.log 2>&1
+
+# Processing of Files for Previous Day: Execution on a Daily Cadence at 4:00 A.M UTC
+0 4 * * * /home/imwendwa/.pyenv/versions/twitterScraping/bin/python /home/imwendwa/analytics/VE_TwitterScraping/ve_etl_prod.py >> /home/imwendwa/analytics/VE_TwitterScraping/etl_logs/`date +\%Y-\%m-\%d_\%H:\%M:\%S`-ve-etl-logs.log 2>&1
+
+
+###############################################################################################
+##### Police and Elections Twitter Data ETL Scripts: Uploaded by Isaac Mwendwa on 06/12/2021 #########
+
+
+# Processing of Files for Previous Day: Execution on a Daily Cadence at 4:30 A.M UTC
+30 4 * * * /home/imwendwa/.pyenv/versions/twitterScraping/bin/python /home/imwendwa/analytics/policeAndElectionsTwitterScraping/police_and_elections_etl_prod.py  >> /home/imwendwa/analytics/policeAndElectionsTwitterScraping/etl_logs/`date +\%Y-\%m-\%d_\%H:\%M:\%S`-police-and-elections-etl-logs.log 2>&1
+
+
+
+
+##################################################################################################
