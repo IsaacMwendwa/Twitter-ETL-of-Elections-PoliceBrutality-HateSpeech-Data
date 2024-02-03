@@ -1,0 +1,16 @@
+PROCESSING FILES UP TO DATE: 2021-12-04
+/home/imwendwa/analytics/policeTwitterScraping/streaming_json_files/police-tweets-20211120-070647.json
+Traceback (most recent call last):
+  File "/home/imwendwa/analytics/test_db/police_and_elections_etl_prod.py", line 582, in <module>
+    to_sql = json2df(file)
+  File "/home/imwendwa/analytics/test_db/police_and_elections_etl_prod.py", line 197, in json2df
+    tweets_dicts = tweets_df[to_dicts]
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/pandas/core/frame.py", line 3001, in __getitem__
+    indexer = self.loc._convert_to_indexer(key, axis=1, raise_missing=True)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/pandas/core/indexing.py", line 1285, in _convert_to_indexer
+    return self._get_listlike_indexer(obj, axis, **kwargs)[1]
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/pandas/core/indexing.py", line 1092, in _get_listlike_indexer
+    keyarr, indexer, o._get_axis_number(axis), raise_missing=raise_missing
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/pandas/core/indexing.py", line 1185, in _validate_read_indexer
+    raise KeyError("{} not in index".format(not_found))
+KeyError: "['extended_entities'] not in index"

@@ -1,0 +1,9 @@
+PROCESSING FILES UP TO DATE: 2021-12-14
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211213-231256.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211214-064543.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211129-130135.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211214-123623.json
+Number of Files to be processed: 3
+Number of Files with SQLAlchemy Error (Additional Columns): 1
+Number of Files with JSON Error (Incomplete Write): 0
+Script Finished Executing in : 0.016666666666666666 Minutes

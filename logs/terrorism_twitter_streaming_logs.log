@@ -1,0 +1,57 @@
+Traceback (most recent call last):
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/connection.py", line 175, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/home/imwendwa/.pyenv/versions/3.6.0/lib/python3.6/socket.py", line 743, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/connection.py", line 187, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f3ab41dccf8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/connectionpool.py", line 756, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='stream.twitter.com', port=443): Max retries exceeded with url: /1.1/statuses/filter.json?delimited=length (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3ab41dccf8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/imwendwa/analytics/terrorismTwitterScraping/streaming.py", line 88, in <module>
+    stream.filter(track=keywords_to_hear)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/tweepy/streaming.py", line 453, in filter
+    self._start(is_async)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/tweepy/streaming.py", line 368, in _start
+    self._run()
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/tweepy/streaming.py", line 300, in _run
+    six.reraise(*exc_info)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/six.py", line 719, in reraise
+    raise value
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/tweepy/streaming.py", line 253, in _run
+    proxies = self.proxies)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/imwendwa/.pyenv/versions/twitterScraping/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='stream.twitter.com', port=443): Max retries exceeded with url: /1.1/statuses/filter.json?delimited=length (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3ab41dccf8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))

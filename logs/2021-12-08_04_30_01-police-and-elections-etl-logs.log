@@ -1,0 +1,8 @@
+PROCESSING FILES UP TO DATE: 2021-12-07
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-221017.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211207-060049.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211207-132007.json
+Number of Files to be processed: 3
+Number of Files with SQLAlchemy Error (Additional Columns): 0
+Number of Files with JSON Error (Incomplete Write): 0
+Script Finished Executing in : 0.016666666666666666 Minutes

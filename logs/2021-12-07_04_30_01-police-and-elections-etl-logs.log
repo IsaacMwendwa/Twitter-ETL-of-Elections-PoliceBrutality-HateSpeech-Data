@@ -1,0 +1,19 @@
+PROCESSING FILES UP TO DATE: 2021-12-06
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-062729.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-103010.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-174249.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-130946.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-121108.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-055857.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-071342.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-090724.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-071828.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-113601.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-080331.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-070009.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211205-223551.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211206-151154.json
+Number of Files to be processed: 14
+Number of Files with SQLAlchemy Error (Additional Columns): 0
+Number of Files with JSON Error (Incomplete Write): 0
+Script Finished Executing in : 0.11666666666666667 Minutes

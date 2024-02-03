@@ -1,0 +1,29 @@
+PROCESSING FILES UP TO DATE: 2021-12-04
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211126-224710.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211203-082519.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211126-085228.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211129-130135.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211201-105558.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211124-173753.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211129-130135.json :SQL Alchemy Error due to Additional Columns
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211202-090415.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211125-200904.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211125-132438.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211201-211534.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211130-115014.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211203-195804.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211129-040616.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211202-210258.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211127-152245.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211129-221413.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211130-225153.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211128-141350.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211128-015710.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211204-072235.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211124-064742.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211123-160439.json
+/home/imwendwa/analytics/policeAndElectionsTwitterScraping/streaming_json_files/police-and-elections-tweets-20211129-130135.json
+Number of Files to be processed: 22
+Number of Files with SQLAlchemy Error (Additional Columns): 2
+Number of Files with JSON Error (Incomplete Write): 0
+Script Finished Executing in : 0.18333333333333332 Minutes
